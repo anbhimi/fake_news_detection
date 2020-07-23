@@ -18,6 +18,10 @@ The Simple BERT Model uses news-statements which are fed into the BERT network. 
 
 BERT with Metadata uses news-statements and metadata (The metadata includes - subjects, speakers, jobs, states and affiliations). Both the features (news statements and metadata) are subjected to tokenization, conversion to ids and padding to a maximum length. The resulted tensors are introduced into two seperate BERT models. The results from the BERT models are concatenated with credits and used for classification. The model is trained for 5 epochs with 'Adam' optimizer and 'CrossEntropyLoss' function in PyTorch.
 
+![BERT with Metadata] (/images/bert with metadata.png)
+
 ### Final BERT Model (Siamese BERT Architecture)
 
 The Final BERT Model uses news-statements, metadata, true words, and false words. All the features are subjected to tokenization, conversion to ids and padding to a maximum length. The resulted tensors are introduced into seperate BERT models. The results from the BERT models are concatenated with credits and used for classification. The model is trained for 5 epochs with 'Adam' optimizer and 'CrossEntropyLoss' function in PyTorch.
+
+![Final BERT Model] (/images/Final BERT Model.png)
