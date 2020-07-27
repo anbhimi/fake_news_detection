@@ -1,6 +1,6 @@
 # Fake News Detection
 
-This GitHub repository is code base for the paper 'Detecting Fake News using Siamese BERT Network'. The paper explores the possibilties of classifying news statements. We have experimented using LSTM, Bidirectional LSTM and BERT models.
+This GitHub repository is code base for the paper 'Detecting Fake News using Siamese BERT Network'. The paper explores the possibilties of classifying news statements. We have experimented using LSTM, Bidirectional LSTM and BERT models. The Dataset used in this paper is introduced in "Liar, Liar Pants on Fire" paper and is an open-source dataset.
 
 ### LSTM Model
 
